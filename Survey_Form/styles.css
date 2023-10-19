@@ -1,0 +1,97 @@
+html{
+    font-family: Trebuchet MS;
+    background: url("https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2874&q=80");
+    background-size: cover;
+    background-repeat: none;
+  }
+  
+  body{
+    background-color: #cce0eacc;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    max-width: 500px;
+    margin: 50px auto;
+    color: #000000cc;
+  }
+  
+  h1, #description{
+    text-align: center;
+  }
+  
+  p{
+    font-size: 18px
+  }
+  
+  label{
+    display:block;
+    font-size: 19px;
+  }
+  
+  input{
+    margin: 5px auto;
+  }
+  input, textarea, select{
+    background-color: #ffffff55;
+    border-color: #00000022;
+  }
+  
+  input, textarea, button, select{
+    font-size: 15px;
+  }
+  
+  input, select, button{
+    padding: 10px;
+  }
+  
+  .equal-labels{
+    width:55px;
+    display: inline-block;
+  }
+  
+  select{
+    margin-top: 10px
+  }
+  
+  select, textarea{
+    display: block;
+  }
+  .radio{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  input[type="radio"], input[type="checkbox"]{
+      vertical-align: middle;
+      border: 2px solid #000000;
+      accent-color: #000000;
+      background-color: red;
+      opacity: .6
+  }
+  
+  fieldset{
+    border:none;
+  }
+  
+  legend{
+    font-size: 18;
+  }
+  
+  textarea{
+    margin-top: 10px;
+    min-width: 400px;
+    min-height: 100px;
+  }
+  
+  hr{
+    height:1px;
+    border: none;
+  }
+  
+  button{
+      border: 2px solid #00000099;
+      background-color: transparent;
+  }
+  button:hover{
+    background-color: #00000099;
+    color: #cce0ea;
+    border-color: transparent;
+  }

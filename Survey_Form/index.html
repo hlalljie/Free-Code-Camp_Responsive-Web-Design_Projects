@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ideal Travel Destinations</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Ideal Travel Destinations</h1>
+    <p id="description">Fill out the form below to tell me a little bit about your favorite travel destination.</p>
+    <hr>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">
+          <span class="equal-labels">Name: </span>
+          <input id="name" type="text" required placeholder="John Doe"/>
+        </label>
+        <label for="email" id="email-label">
+          <span class="equal-labels">Email: </span>
+          <input id="email" type="email" required placeholder="email@email.com"/>
+        </label>
+        <label for="number" id="number-label">
+          <span class="equal-labels">Age: </span>
+          <input id="number" type="number" min="5" max="150" placeholder="69"/>
+        </label>
+      </fieldset>
+      <hr/>
+      <fieldset>
+        <label for="dropdown">Your Favorite Way to Travel to Your Destination:
+          <select id="dropdown">
+            <option value="">Select an option</option>
+            <option value="1">Flying</option>
+            <option value="2">Driving</option>
+            <option value="3">Sailing</option>
+            <option value="4">Backpacking</option>
+            <option value="5">Biking</option>
+            <option value="6">Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend>Your Favorite Type of Travel Destination:</legend>
+        <label for="coast" class="radio">
+          <input type="radio" name="radio" id="coast" value="1"/> Coast
+        </label>
+        <label class="radio" for="mountains">
+          <input type="radio" name="radio" id="mountains" value="2"/> Mountains
+        </label>
+        <label class="radio" for="city">
+          <input type="radio" name="radio" id="city" value="3"/> City
+        </label>
+        <label class="radio" for="countyside">
+          <input type="radio" name="radio" id="countryside" value="4"/> Countryside
+        </label>
+        <label class="radio" for="forest">
+          <input type="radio" name="radio" id="forest" value="5"/> Forest
+          </label>
+        <label for="other">
+          <input type="radio" name="radio" id="other" value="6"/> Other
+        </label>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend>Who You Like to Travel With:</legend>
+        <label class="checkbox" for="family"><input type="checkbox" id="family" value="family"> Family</label>
+        <label class="checkbox" for="freinds"><input type="checkbox" id="freinds" value="freinds"> Friends</label>
+        <label class="checkbox" for="solo"><input type="checkbox" id="solo" value="solo"> Myself</label>
+        <label class="checkbox" for="my-dog"><input type="checkbox" id="my-dog" value="my-dog"> My Dog</label>
+        <label class="checkbox" for="my-partner"><input type="checkbox" id="my-partner" value="my-partner"> My Partner</label>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <label for="more-info">More About Your Favorite Travel Destination
+          <textarea id="more-info"></textarea>
+        <label>
+      </fieldset>
+      <fieldset>
+        <button id="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
